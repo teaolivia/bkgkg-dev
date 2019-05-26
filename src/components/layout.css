@@ -10,6 +10,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background: #114f65;
 }
 body {
   margin: 0;
@@ -48,6 +49,7 @@ template {
   display: none;
 }
 a {
+  color: #f8cd65;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -229,6 +231,7 @@ img {
   margin-bottom: 1.45rem;
 }
 h1 {
+  color: #f8cd65;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -385,6 +388,7 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
+  color: #eaeaea;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -627,4 +631,8 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.gatsby-link {
+  text-decoration: none;
 }
